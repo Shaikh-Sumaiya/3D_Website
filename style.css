@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header .content-box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("home.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {
+    display: inline-flex;
+}
+
+.menu img {
+    height: 60px;
+    margin: 20px 0 0 90px;
+    cursor: pointer;
+}
+
+.menu button {
+    padding: 5px 20px;
+    background: #d3886b;
+    color: #511515;
+    font-size: 16px;
+    border: 0;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.menu button .fa {
+    margin-right: 10px;
+}
+
+.banner-text {
+    width: 80%;
+    color: #fff;
+    margin: 11% auto 0;
+    text-align: center;
+}
+
+.banner-text h2 {
+    margin-top: 30px;
+    font-size: 64px;
+}
+
+.banner-text p {
+    font-size: 14px;
+    margin: 20px 0 50px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: #511515;
+    border: 1px solid #d3886b;
+    display: block;
+    padding: 10px;
+    width: 180px;
+    margin: auto;
+    background: #d3886b;
+    transition: 0.5s;
+}
+
+.banner-text a:hover {
+    background: transparent;
+    color: #d3886b;
+}
+
+/* Services */
+
+.content-box {
+    background: #d3886b;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+h1::after{
+    content: '';
+    background: #511515;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 40px;
+}
+
+.services .icon {
+    font-size: 30px;
+    margin: 15px auto;
+    padding: 18px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #511515;
+    border-radius: 50%;
+    color: #511515;
+}
+
+.services p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #511515;
+    padding: 20px;
+}
+
+.services span {
+    color: #511515;
+    display: block;
+    transition: 0.5s;
+}
+
+.services .col-md-3:hover{
+    background: #511515;
+    cursor: pointer;
+    color: #d3886b;
+    box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+.services .col-md-3:hover .icon {
+    border: 1px solid #d3886b;
+    color: #d3886b;
+}
+
+.services .col-md-3:hover p {
+    /* border: 1px solid #d3886b; */
+    color: #d3886b;
+}
+
+.services .col-md-3:hover span {
+    color: #fff;
+}
+
+
+
+/* Features */
+
+.feature {
+    background: #511515;
+}
+
+.feature h2 {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.feature h2::after{
+    content: '';
+    background: #d3886b;
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto 50px;
+    position: absolute;
+    left: 17px;
+}
+
+.feature ul {
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.feature ul li {
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+}
+
+.feature ul li::after{
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #d3886b;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+
+.feature img {
+    margin-top: 12px;
+}
+
+
+/* Footer */
+
+.footer h1 {
+    padding-top: 50px;
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.contact-form button {
+    border: none !important;
+    background: #511515 !important;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.contact-info .follow {
+    background-color: #511515;
+    padding: 8px;
+    margin: 15px;
+}
+
+.contact-info .fa {
+    margin: 10px;
+    font-size: 20px !important;
+    color: #fff !important;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.contact-info span {
+    font-size: 14px;
+    color: #d3886b;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #511515;
+}
+
+.fa-heart-o {
+    color: red;
+    font-size: 17px;
+}
+
+.footer hr {
+    margin-top: 50px;
+    background: #511515;
+}
+
+.service,.feature,.footer {
+    margin-top: 10%;
+}
